@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B1C605F18C372B200664BE7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1C605E18C372B200664BE7 /* MainStoryboard.storyboard */; };
+		7B1C606218C372E400664BE7 /* JGARootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C606118C372E400664BE7 /* JGARootViewController.m */; };
+		7B1C606518C3752200664BE7 /* JGABroadcastController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C606418C3752200664BE7 /* JGABroadcastController.m */; };
+		7B1C606818C3809200664BE7 /* JGABroadcastAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C606718C3809200664BE7 /* JGABroadcastAlert.m */; };
 		7B22116A18C172C6001B0EB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B22116918C172C6001B0EB1 /* Foundation.framework */; };
 		7B22116C18C172C6001B0EB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B22116B18C172C6001B0EB1 /* CoreGraphics.framework */; };
 		7B22116E18C172C6001B0EB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B22116D18C172C6001B0EB1 /* UIKit.framework */; };
@@ -33,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B1C605E18C372B200664BE7 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7B1C606018C372E400664BE7 /* JGARootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGARootViewController.h; sourceTree = "<group>"; };
+		7B1C606118C372E400664BE7 /* JGARootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGARootViewController.m; sourceTree = "<group>"; };
+		7B1C606318C3752200664BE7 /* JGABroadcastController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGABroadcastController.h; sourceTree = "<group>"; };
+		7B1C606418C3752200664BE7 /* JGABroadcastController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGABroadcastController.m; sourceTree = "<group>"; };
+		7B1C606618C3809200664BE7 /* JGABroadcastAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGABroadcastAlert.h; sourceTree = "<group>"; };
+		7B1C606718C3809200664BE7 /* JGABroadcastAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGABroadcastAlert.m; sourceTree = "<group>"; };
 		7B22116618C172C6001B0EB1 /* BeaconEmitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconEmitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B22116918C172C6001B0EB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7B22116B18C172C6001B0EB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,8 +124,15 @@
 			children = (
 				7B22117818C172C6001B0EB1 /* JGAAppDelegate.h */,
 				7B22117918C172C6001B0EB1 /* JGAAppDelegate.m */,
+				7B1C606018C372E400664BE7 /* JGARootViewController.h */,
+				7B1C606118C372E400664BE7 /* JGARootViewController.m */,
+				7B1C606318C3752200664BE7 /* JGABroadcastController.h */,
+				7B1C606418C3752200664BE7 /* JGABroadcastController.m */,
+				7B1C606618C3809200664BE7 /* JGABroadcastAlert.h */,
+				7B1C606718C3809200664BE7 /* JGABroadcastAlert.m */,
 				7B22117B18C172C6001B0EB1 /* Images.xcassets */,
 				7B22117018C172C6001B0EB1 /* Supporting Files */,
+				7B1C605E18C372B200664BE7 /* MainStoryboard.storyboard */,
 			);
 			path = BeaconEmitter;
 			sourceTree = "<group>";
@@ -224,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B1C605F18C372B200664BE7 /* MainStoryboard.storyboard in Resources */,
 				7B22117418C172C6001B0EB1 /* InfoPlist.strings in Resources */,
 				7B22117C18C172C6001B0EB1 /* Images.xcassets in Resources */,
 			);
@@ -244,8 +263,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B1C606518C3752200664BE7 /* JGABroadcastController.m in Sources */,
 				7B22117618C172C6001B0EB1 /* main.m in Sources */,
+				7B1C606218C372E400664BE7 /* JGARootViewController.m in Sources */,
 				7B22117A18C172C6001B0EB1 /* JGAAppDelegate.m in Sources */,
+				7B1C606818C3809200664BE7 /* JGABroadcastAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +470,7 @@
 				7B22119418C172C6001B0EB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B22119518C172C6001B0EB1 /* Build configuration list for PBXNativeTarget "BeaconEmitterTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +479,7 @@
 				7B22119718C172C6001B0EB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
